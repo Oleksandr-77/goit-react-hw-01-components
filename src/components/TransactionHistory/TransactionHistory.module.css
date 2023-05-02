@@ -1,0 +1,29 @@
+.transactionHistory {
+  font-size: 14px;
+  width: 500px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 0 auto;
+}
+
+th {
+  background-color: rgb(7, 229, 245);
+  height: 40px;
+  color: aliceblue;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+tr:nth-child(even) {
+  /* border: 1px solid rgb(255, 255, 255); */
+  background-color: rgb(197, 197, 197);
+}
+
+td {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+table {
+  border-collapse: collapse;
+  width: 600px;
+  /* background-color: rgb(151, 151, 151); */
+}
